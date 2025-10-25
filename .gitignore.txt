@@ -1,2 +1,0 @@
-recognition/OASIS_Improved2D_UNet/data/
-.idea/
