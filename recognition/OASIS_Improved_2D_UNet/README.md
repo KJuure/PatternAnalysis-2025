@@ -12,6 +12,17 @@ Tasks may include:
 
 OASIS Improved 2D UNet - Project 1
 
+Day 1:
+
 First started by asking ChatGPT to produce framework and code to solve the problem. To do so, I provided ChatGPT the project description file. Once it provided a solution, I studied the given solution to learn how it works and to see if it was suitable.
 
 I asked ChatGPT to provide step by step instructions on implementing the given code including proper file directories and any additional required scripts.
+
+Then I created the text files as well as the script requried to generate the list of ID names for the algorithm to use to pull images.
+
+
+Day 2:
+
+I have written the code for dataset.py and I am now studying and confirming the code is correct.
+
+After spending an hour reviewing dataset.py, I have discovered ChatGPT does a lot of edge testing and confirmation. I have removed all the ones I have deemed unneccessary such as checking if the file directories are in "OASIS PNG" or "flat" layout, and alterations to the code which allows for both layouts. 
