@@ -26,3 +26,7 @@ Day 2:
 I have written the code for dataset.py and I am now studying and confirming the code is correct.
 
 After spending an hour reviewing dataset.py, I have discovered ChatGPT does a lot of edge testing and confirmation. I have removed all the ones I have deemed unneccessary such as checking if the file directories are in "OASIS PNG" or "flat" layout, and alterations to the code which allows for both layouts. 
+
+After studying the code further, I've created a remapping json file for the mask images and confirmed the remapping is correct with the help of ChatGPT.
+
+I have now fully implemented the dataset.py file and have confirmed the functionality with ChatGPTs help.
