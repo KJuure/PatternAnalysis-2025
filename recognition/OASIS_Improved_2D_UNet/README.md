@@ -30,3 +30,11 @@ After spending an hour reviewing dataset.py, I have discovered ChatGPT does a lo
 After studying the code further, I've created a remapping json file for the mask images and confirmed the remapping is correct with the help of ChatGPT.
 
 I have now fully implemented the dataset.py file and have confirmed the functionality with ChatGPTs help.
+
+
+I just finished implementing modules.py and I am now verifying functionality while also studying what each line of code does and its purpose in the algorithm.
+
+
+Day 3:
+
+Implemented, studied and validated the utils.py file. I'm discovering pretty quickly that although ChatGPT gives a lot of information, its pretty bad at explaining concepts from the very bottom and often includes complex language.
