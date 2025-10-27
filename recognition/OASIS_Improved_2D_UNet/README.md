@@ -38,3 +38,5 @@ I just finished implementing modules.py and I am now verifying functionality whi
 Day 3:
 
 Implemented, studied and validated the utils.py file. I'm discovering pretty quickly that although ChatGPT gives a lot of information, its pretty bad at explaining concepts from the very bottom and often includes complex language.
+
+Implemented train.py. Same issue as before, ChatGPT includes so many safety nets like making a list of possible class names when importing from another class.
