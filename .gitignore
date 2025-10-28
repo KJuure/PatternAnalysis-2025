@@ -1,3 +1,4 @@
 recognition/OASIS_Improved_2D_UNet/data
 .idea/
 recognition/OASIS_Improved_2D_UNet/__pycache__
+recognition/OASIS_Improved_2D_UNet/runs

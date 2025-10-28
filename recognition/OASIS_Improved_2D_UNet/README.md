@@ -40,3 +40,7 @@ Day 3:
 Implemented, studied and validated the utils.py file. I'm discovering pretty quickly that although ChatGPT gives a lot of information, its pretty bad at explaining concepts from the very bottom and often includes complex language.
 
 Implemented train.py. Same issue as before, ChatGPT includes so many safety nets like making a list of possible class names when importing from another class.
+
+Came across a new issue - CUDA is for nvidia GPUS only. Now I'm wrangling with ChatGPT to help me rewrite the code to support AMD. This entire process is causing so many errors which I have to deal with one by one.
+
+I've rewritten the concerned code to support DML.

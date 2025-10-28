@@ -13,12 +13,20 @@ import torch.nn.functional as F
 
 def one_hot_labels(target: torch.Tensor, num_classes: int) -> torch.Tensor:
     """
-    target: (B, H, W) int64 with values in [0..C-1]
-    returns: (B, C, H, W) float one-hot
+    DML-safe one-hot: works on CPU, CUDA, and DirectML.
+    Args:
+      target: (B, H, W) int64 class indices in [0, num_classes-1]
+      num_classes: number of classes
+    Returns:
+      (B, C, H, W) float32 one-hot tensor
     """
-    b, h, w = target.shape
-    oh = F.one_hot(target, num_classes=num_classes)  # (B, H, W, C)
-    return oh.permute(0, 3, 1, 2).float()            # (B, C, H, W)
+    if target.dtype != torch.long:
+        target = target.long()
+    # shape: (1, C, 1, 1)
+    classes = torch.arange(num_classes, device=target.device).view(1, num_classes, 1, 1)
+    # broadcast compare: (B, 1, H, W) == (1, C, 1, 1) -> (B, C, H, W) boolean
+    oh = (target.unsqueeze(1) == classes).to(torch.float32)
+    return oh
 
 
 def soft_dice_per_class(probs: torch.Tensor,

@@ -1,0 +1,22 @@
+{
+  "data_dir": "data",
+  "train_ids": "splits/train.txt",
+  "val_ids": "splits/val.txt",
+  "num_classes": 4,
+  "remap_json": "json/remap_labels_oasis_png.json",
+
+  "base_ch": 32,
+  "use_se": true,
+  "deep_supervision": true,
+  "dropout": 0.1,
+
+  "epochs": 30,
+  "batch": 4,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "device": "cuda",
+  "workers": 0,
+  "amp": true,
+
+  "save_dir": "runs/oasis_unet_improved"
+}
