@@ -1,0 +1,16 @@
+{
+  "ids": "splits/val.txt",
+  "weights": "runs/oasis_unet_improved/best.pt",
+  "out_dir": "runs/oasis_unet_improved/val_report",
+  "data_dir": "data",
+  "num_classes": 4,
+  "remap_json": "json/remap_labels_oasis_png.json",
+  "base_ch": 32,
+  "use_se": true,
+  "deep_supervision": true,
+  "dropout": 0.1,
+  "batch": 4,
+  "workers": 0,
+  "device": "dml",
+  "class_names": "bg,csf,gm,wm"
+}
