@@ -56,6 +56,7 @@ Yielding the following results:
 
 ![Image of the all test cases. Left image - Original Slice, Middle Image - True Answer, Right Image - Model Answer](runs/oasis_unet_improved/val_report/plots/overlay_grid.png?raw=true)
 
+Left image - Original Slice, Middle Image - True Answer, Right Image - Model Answer
 
 ### Table of results:
 
