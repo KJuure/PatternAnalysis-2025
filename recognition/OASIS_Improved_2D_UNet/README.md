@@ -49,11 +49,11 @@ The default values set for `predict.py` are:
 ```
 
 Yielding the following results:
-![Histogram of Dice Similarity Coefficient of the 4 classes Background (bg), Cerebrospinal Fluid (csf), Grey Matter (gm), and White Matter (wm).](/runs/oasis_unet_improved/val_report/plots/dice_bar.png?raw=true)
+![Histogram of Dice Similarity Coefficient of the 4 classes Background (bg), Cerebrospinal Fluid (csf), Grey Matter (gm), and White Matter (wm).](runs/oasis_unet_improved/val_report/plots/dice_bar.png?raw=true)
 
-![Histogram of Intersection over Union (IoU) of the 4 classes Background (bg), Cerebrospinal Fluid (csf), Grey Matter (gm), and White Matter (wm).](/runs/oasis_unet_improved/val_report/plots/iou_bar.png?raw=true)
+![Histogram of Intersection over Union (IoU) of the 4 classes Background (bg), Cerebrospinal Fluid (csf), Grey Matter (gm), and White Matter (wm).](runs/oasis_unet_improved/val_report/plots/iou_bar.png?raw=true)
 
-![Image of the all test cases. Left image - Original Slice, Middle Image - True Answer, Right Image - Model Answer](/runs/oasis_unet_improved/val_report/plots/overlay_grid.png?raw=true)
+![Image of the all test cases. Left image - Original Slice, Middle Image - True Answer, Right Image - Model Answer](runs/oasis_unet_improved/val_report/plots/overlay_grid.png?raw=true)
 
 
 ### Table of results:
