@@ -1,4 +1,8 @@
-# ---- Imports ----
+"""
+Evaluate the Results from the Model
+Output easy to read metrics in spreadsheet and figures
+"""
+#---- Imports ----
 # Bring in standard libraries for CLI parsing, JSON, and paths
 import argparse, json
 from pathlib import Path

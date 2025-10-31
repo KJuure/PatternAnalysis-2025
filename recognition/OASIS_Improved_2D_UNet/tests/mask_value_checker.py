@@ -1,3 +1,6 @@
+"""
+Check Masks are correct
+"""
 import sys
 from pathlib import Path
 from PIL import Image

@@ -1,5 +1,5 @@
 """
-Sanity tests for modules.py (ImprovedUNet2D).
+Tests for modules.py (ImprovedUNet2D).
 
 What this checks:
 1) Forward pass (train mode, deep supervision on/off) -> shapes are correct

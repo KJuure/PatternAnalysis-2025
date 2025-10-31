@@ -3,6 +3,8 @@ Losses & metrics for multi-class segmentation (bg/CSF/GM/WM).
 
 - DiceCELoss: combines CrossEntropy and soft Dice
 - dice_per_class: per-class Dice from logits + integer masks
+
+Utility Functions used throughout the model
 """
 
 from typing import Optional

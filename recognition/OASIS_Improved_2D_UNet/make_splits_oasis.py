@@ -2,6 +2,7 @@ from pathlib import Path
 
 """
 Generate train.txt, val.txt and test.txt files for given data
+Used in locating each image
 """
 root = Path("data")
 out  = Path("splits"); out.mkdir(exist_ok=True)

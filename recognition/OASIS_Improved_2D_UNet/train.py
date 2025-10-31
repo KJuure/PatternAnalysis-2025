@@ -1,27 +1,7 @@
-# Allow running as a script directly on Unix-like systems.
-#!/usr/bin/env python3
-
-# -----------------------------------------------------------------------------
-# train.py — Train the Improved 2D U-Net on OASIS PNG slices using OasisSeg2D.
-#
-# Requires:
-#   - dataset.py with class OasisSeg2D(data_dir, id_list_file, num_classes,
-#       augment=True, remap_labels_json=None)
-#   - modules.py with class ImprovedUNet2D
-#   - utils.py with DiceCELoss and dice_per_class
-#
-# Example:
-#   python train.py \
-#     --data_dir data \
-#     --train_ids splits/train.txt \
-#     --val_ids   splits/val.txt \
-#     --epochs 30 --batch 4 --device cuda \
-#     --deep_supervision --use_se --amp \
-#     --num_classes 4 \
-#     --save_dir runs/oasis_unet_improved
-# -----------------------------------------------------------------------------
 """
-train.py — see header comments for usage.
+
+train.py — Train the Improved 2D U-Net on OASIS PNG slices using OasisSeg2D.
+
 """
 
 # Read command-line options (e.g., --epochs 30).

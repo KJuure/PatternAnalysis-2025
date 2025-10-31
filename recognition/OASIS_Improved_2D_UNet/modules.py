@@ -1,6 +1,6 @@
-# modules.py
 """
 Improved U-Net for 2D medical image segmentation.
+Main functions used in the Model
 
 Design highlights
 - Residual double-conv blocks: easier optimization, better gradient flow

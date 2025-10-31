@@ -1,5 +1,5 @@
 """
-Quick tests for dataset.py (OASIS PNG layout).
+Tests for dataset.py (OASIS PNG layout).
 
 What it verifies:
 1) __len__/__getitem__: shapes & dtypes are correct

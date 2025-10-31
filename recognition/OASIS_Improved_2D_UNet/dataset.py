@@ -1,6 +1,7 @@
 """
 Loads OASIS PNG slices with paired segmentation masks.
 Handles the conversion from PNG to Tensors
+Prepares the Data for the Model
 
 Returns:
   image: (1, H, W) float32  — z-score normalized per image

@@ -1,8 +1,21 @@
-torch>=2.2
-torchvision>=0.17
+# Core
 numpy>=1.24
-pillow>=9.5
-nibabel>=5.1
-scikit-image>=0.22
-matplotlib>=3.7
+pillow>=10.0
+matplotlib>=3.8
 tqdm>=4.66
+
+# ===== choose ONE backend stack =====
+# (A) AMD GPU on Windows (DirectML) — recommended for your machine
+torch==2.4.1
+torch-directml>=0.3.2
+
+# (B) CPU-only (no GPU). Comment out (A) above and install via:
+# pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+
+# (C) NVIDIA CUDA. Use matching CUDA wheels:
+# torch==2.5.1+cu121
+# torchvision==0.20.1+cu121
+# --extra-index-url https://download.pytorch.org/whl/cu121
+
+# Optional (for boundary-only error overlays in predict.py)
+# opencv-python>=4.10
