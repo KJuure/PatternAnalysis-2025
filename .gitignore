@@ -1,4 +1,9 @@
 recognition/OASIS_Improved_2D_UNet/data
 .idea/
 recognition/OASIS_Improved_2D_UNet/__pycache__
-recognition/OASIS_Improved_2D_UNet/runs
+recognition/OASIS_Improved_2D_UNet/runs/oasis_unet_improved/best.pt
+recognition/OASIS_Improved_2D_UNet/runs/oasis_unet_improved/last.pt
+recognition/OASIS_Improved_2D_UNet/runs/oasis_unet_improved/val_report/errors
+recognition/OASIS_Improved_2D_UNet/runs/oasis_unet_improved/val_report/masks
+recognition/OASIS_Improved_2D_UNet/runs/oasis_unet_improved/val_report/metrics
+recognition/OASIS_Improved_2D_UNet/runs/oasis_unet_improved/val_report/overlays
