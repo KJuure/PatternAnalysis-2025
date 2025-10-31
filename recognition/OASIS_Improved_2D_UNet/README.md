@@ -48,7 +48,7 @@ The default values set for `predict.py` are:
 }
 ```
 
-Yielding the following results:\
+Yielding the following results:
 
 ![Histogram of Dice Similarity Coefficient of the 4 classes Background (bg), Cerebrospinal Fluid (csf), Grey Matter (gm), and White Matter (wm).](runs/oasis_unet_improved/val_report/plots/dice_bar.png?raw=true)
 
